@@ -1,0 +1,10 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\semen\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\semen\\.nuget\\packages",
+      "E:\\visual studio\\Shared\\NuGetPackages",
+      "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet"
+    ]
+  }
+}
