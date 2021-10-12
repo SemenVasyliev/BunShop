@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace Shop2.Data.Models
 {
-    public class Car
+    public class Bun
     {
 
         public int id { get; set; }

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Shop2.Data.mocks
 {
-    public class MockCategory : ICarsCategory
+    public class MockCategory : IBunsCategory
     {
         public IEnumerable<Category> AllCategories
         {
@@ -15,8 +15,8 @@ namespace Shop2.Data.mocks
             {
                 return new List<Category>
                 {
-                    new Category {categoryName = "Электромобили", desc = "Современный вид транспорта" },
-                    new Category {categoryName = "Классические автомобили", desc = "Машины с двигателем внутреннего сгорания"}
+                    new Category {categoryName = "Сладкая выпечка", desc = "Булки с начинкой из крема, ягод и тд." },
+                    new Category {categoryName = "Мясная выпечка", desc = "Булки с мясной начинкой"}
                 };
             }
         }

@@ -1,0 +1,12 @@
+﻿    <h1>Все изделия</h1>
+    <h3>@Model.currCategory</h3>
+    @{ 
+        foreach (var bun in Model.allBuns)
+        {
+        <div>
+                <h2>Наименование: @bun.name</h2>
+                <p>Цена: @bun.price.ToString("c")</p>>
+        </div>
+        }
+    }
+

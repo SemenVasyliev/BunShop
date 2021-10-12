@@ -14,7 +14,7 @@ namespace Shop2.Data.Models
 
         public string desc { get; set; }
 
-        public List<Car> cars { get; set; }
+        public List<Bun> buns { get; set; }
 
 
     }
